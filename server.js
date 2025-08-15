@@ -13,7 +13,7 @@ app.use(express.json());
 //Tesing,,,,
 // app.use('/',(req,res)=>{
 //     res.status(200).json("Api Running");
-// });
+// }); 
 
 app.use('/auth',authRoutes);
 app.use('/api/doctor',doctorRoutes);
